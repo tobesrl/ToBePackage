@@ -1,0 +1,11 @@
+framework module ToBeTest {
+  umbrella header "ToBeTest.h"
+
+  export *
+  module * { export * }
+}
+
+module ToBeTest.Swift {
+  header "ToBeTest-Swift.h"
+  requires objc
+}

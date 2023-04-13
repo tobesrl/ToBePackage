@@ -1,0 +1,223 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ToBeTest",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ToBeDelegate",
+        "printedName": "ToBeDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didSalutoUpdated",
+            "printedName": "didSalutoUpdated(_:saluto:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ToBe",
+                "printedName": "ToBeTest.ToBe",
+                "usr": "s:8ToBeTest0aB0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8ToBeTest0aB8DelegateP16didSalutoUpdated_6salutoyAA0aB0C_SStF",
+            "mangledName": "$s8ToBeTest0aB8DelegateP16didSalutoUpdated_6salutoyAA0aB0C_SStF",
+            "moduleName": "ToBeTest",
+            "genericSig": "<τ_0_0 where τ_0_0 : ToBeTest.ToBeDelegate>",
+            "sugared_genericSig": "<Self where Self : ToBeTest.ToBeDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:8ToBeTest0aB8DelegateP",
+        "mangledName": "$s8ToBeTest0aB8DelegateP",
+        "moduleName": "ToBeTest",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ToBeTest",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ToBe",
+        "printedName": "ToBe",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ToBeTest.ToBeDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ToBeDelegate",
+                    "printedName": "ToBeTest.ToBeDelegate",
+                    "usr": "s:8ToBeTest0aB8DelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8ToBeTest0aB0C8delegateAA0aB8Delegate_pSgvp",
+            "mangledName": "$s8ToBeTest0aB0C8delegateAA0aB8Delegate_pSgvp",
+            "moduleName": "ToBeTest",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ToBeTest.ToBeDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ToBeDelegate",
+                        "printedName": "ToBeTest.ToBeDelegate",
+                        "usr": "s:8ToBeTest0aB8DelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8ToBeTest0aB0C8delegateAA0aB8Delegate_pSgvg",
+                "mangledName": "$s8ToBeTest0aB0C8delegateAA0aB8Delegate_pSgvg",
+                "moduleName": "ToBeTest",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ToBeTest.ToBeDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ToBeDelegate",
+                        "printedName": "ToBeTest.ToBeDelegate",
+                        "usr": "s:8ToBeTest0aB8DelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8ToBeTest0aB0C8delegateAA0aB8Delegate_pSgvs",
+                "mangledName": "$s8ToBeTest0aB0C8delegateAA0aB8Delegate_pSgvs",
+                "moduleName": "ToBeTest",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8ToBeTest0aB0C8delegateAA0aB8Delegate_pSgvM",
+                "mangledName": "$s8ToBeTest0aB0C8delegateAA0aB8Delegate_pSgvM",
+                "moduleName": "ToBeTest",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ToBe",
+                "printedName": "ToBeTest.ToBe",
+                "usr": "s:8ToBeTest0aB0C"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8ToBeTest0aB0CACycfc",
+            "mangledName": "$s8ToBeTest0aB0CACycfc",
+            "moduleName": "ToBeTest",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:8ToBeTest0aB0C",
+        "mangledName": "$s8ToBeTest0aB0C",
+        "moduleName": "ToBeTest",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
