@@ -2,16 +2,56 @@
 // swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
 // swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ToBeTest
 // swift-module-flags-ignorable: -enable-bare-slash-regex
+import CoreLocation
 import Foundation
 import Swift
 @_exported import ToBeTest
 import _Concurrency
 import _StringProcessing
+public struct LiFiSite : Swift.Codable {
+  public let name: Swift.String
+  public let locateRange: Swift.Double?
+  public var dictionary: [Swift.String : Any]? {
+    get
+  }
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
 public protocol ToBeDelegate {
-  func didSalutoUpdated(_ delegate: ToBeTest.ToBe, saluto: Swift.String)
+  func didSiteUpdated(_ delegate: ToBeTest.ToBe, site: ToBeTest.LiFiSite)
+  func didErrorUpdated(_ delegate: ToBeTest.ToBe, error: ToBeTest.GeolocationError)
+}
+public struct Hotspot : Swift.Codable {
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
 }
 public class ToBe {
   public var delegate: ToBeTest.ToBeDelegate?
   public init()
+  public func config(token: Swift.String)
+  public func config(token: Swift.String, position: CoreLocation.CLLocationCoordinate2D)
+  public func config(token: Swift.String, position: CoreLocation.CLLocationCoordinate2D, trueLiFi: Swift.Bool)
   @objc deinit
 }
+public enum ErrorType : Swift.String, Swift.Codable {
+  case Error
+  case Warning
+  case Log
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct GeolocationError : Swift.Codable, Swift.Error {
+  public var type: ToBeTest.ErrorType
+  public var message: Swift.String
+  public var dictionary: [Swift.String : Any]? {
+    get
+  }
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+extension ToBeTest.ErrorType : Swift.Equatable {}
+extension ToBeTest.ErrorType : Swift.Hashable {}
+extension ToBeTest.ErrorType : Swift.RawRepresentable {}

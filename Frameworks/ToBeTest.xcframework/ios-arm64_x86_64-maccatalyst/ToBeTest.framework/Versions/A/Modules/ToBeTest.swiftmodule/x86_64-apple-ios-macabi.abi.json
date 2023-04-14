@@ -5,6 +5,291 @@
     "printedName": "TopLevel",
     "children": [
       {
+        "kind": "TypeDecl",
+        "name": "LiFiSite",
+        "printedName": "LiFiSite",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8ToBeTest8LiFiSiteV4nameSSvp",
+            "mangledName": "$s8ToBeTest8LiFiSiteV4nameSSvp",
+            "moduleName": "ToBeTest",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8ToBeTest8LiFiSiteV4nameSSvg",
+                "mangledName": "$s8ToBeTest8LiFiSiteV4nameSSvg",
+                "moduleName": "ToBeTest",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "locateRange",
+            "printedName": "locateRange",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8ToBeTest8LiFiSiteV11locateRangeSdSgvp",
+            "mangledName": "$s8ToBeTest8LiFiSiteV11locateRangeSdSgvp",
+            "moduleName": "ToBeTest",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8ToBeTest8LiFiSiteV11locateRangeSdSgvg",
+                "mangledName": "$s8ToBeTest8LiFiSiteV11locateRangeSdSgvg",
+                "moduleName": "ToBeTest",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dictionary",
+            "printedName": "dictionary",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8ToBeTest8LiFiSiteV10dictionarySDySSypGSgvp",
+            "mangledName": "$s8ToBeTest8LiFiSiteV10dictionarySDySSypGSgvp",
+            "moduleName": "ToBeTest",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8ToBeTest8LiFiSiteV10dictionarySDySSypGSgvg",
+                "mangledName": "$s8ToBeTest8LiFiSiteV10dictionarySDySSypGSgvg",
+                "moduleName": "ToBeTest",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LiFiSite",
+                "printedName": "ToBeTest.LiFiSite",
+                "usr": "s:8ToBeTest8LiFiSiteV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8ToBeTest8LiFiSiteV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s8ToBeTest8LiFiSiteV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "ToBeTest",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8ToBeTest8LiFiSiteV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s8ToBeTest8LiFiSiteV6encode2toys7Encoder_p_tKF",
+            "moduleName": "ToBeTest",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8ToBeTest8LiFiSiteV",
+        "mangledName": "$s8ToBeTest8LiFiSiteV",
+        "moduleName": "ToBeTest",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ToBeTest",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "ToBeTest"
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -21,8 +306,8 @@
         "children": [
           {
             "kind": "Function",
-            "name": "didSalutoUpdated",
-            "printedName": "didSalutoUpdated(_:saluto:)",
+            "name": "didSiteUpdated",
+            "printedName": "didSiteUpdated(_:site:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -37,18 +322,54 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "LiFiSite",
+                "printedName": "ToBeTest.LiFiSite",
+                "usr": "s:8ToBeTest8LiFiSiteV"
               }
             ],
             "declKind": "Func",
-            "usr": "s:8ToBeTest0aB8DelegateP16didSalutoUpdated_6salutoyAA0aB0C_SStF",
-            "mangledName": "$s8ToBeTest0aB8DelegateP16didSalutoUpdated_6salutoyAA0aB0C_SStF",
+            "usr": "s:8ToBeTest0aB8DelegateP14didSiteUpdated_4siteyAA0aB0C_AA04LiFiF0VtF",
+            "mangledName": "$s8ToBeTest0aB8DelegateP14didSiteUpdated_4siteyAA0aB0C_AA04LiFiF0VtF",
             "moduleName": "ToBeTest",
             "genericSig": "<τ_0_0 where τ_0_0 : ToBeTest.ToBeDelegate>",
             "sugared_genericSig": "<Self where Self : ToBeTest.ToBeDelegate>",
             "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didErrorUpdated",
+            "printedName": "didErrorUpdated(_:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ToBe",
+                "printedName": "ToBeTest.ToBe",
+                "usr": "s:8ToBeTest0aB0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GeolocationError",
+                "printedName": "ToBeTest.GeolocationError",
+                "usr": "s:8ToBeTest16GeolocationErrorV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8ToBeTest0aB8DelegateP15didErrorUpdated_5erroryAA0aB0C_AA011GeolocationF0VtF",
+            "mangledName": "$s8ToBeTest0aB8DelegateP15didErrorUpdated_5erroryAA0aB0C_AA011GeolocationF0VtF",
+            "moduleName": "ToBeTest",
+            "genericSig": "<τ_0_0 where τ_0_0 : ToBeTest.ToBeDelegate>",
+            "sugared_genericSig": "<Self where Self : ToBeTest.ToBeDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
           }
@@ -62,6 +383,88 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "Hotspot",
+        "printedName": "Hotspot",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Hotspot",
+                "printedName": "ToBeTest.Hotspot",
+                "usr": "s:8ToBeTest7HotspotV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8ToBeTest7HotspotV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s8ToBeTest7HotspotV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "ToBeTest",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8ToBeTest7HotspotV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s8ToBeTest7HotspotV6encode2toys7Encoder_p_tKF",
+            "moduleName": "ToBeTest",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8ToBeTest7HotspotV",
+        "mangledName": "$s8ToBeTest7HotspotV",
+        "moduleName": "ToBeTest",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -70,6 +473,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "ToBeTest"
       },
       {
         "kind": "TypeDecl",
@@ -206,6 +616,102 @@
               "AccessControl"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "config",
+            "printedName": "config(token:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8ToBeTest0aB0C6config5tokenySS_tF",
+            "mangledName": "$s8ToBeTest0aB0C6config5tokenySS_tF",
+            "moduleName": "ToBeTest",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "config",
+            "printedName": "config(token:position:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocationCoordinate2D",
+                "printedName": "CoreLocation.CLLocationCoordinate2D",
+                "usr": "c:@S@CLLocationCoordinate2D"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8ToBeTest0aB0C6config5token8positionySS_So22CLLocationCoordinate2DVtF",
+            "mangledName": "$s8ToBeTest0aB0C6config5token8positionySS_So22CLLocationCoordinate2DVtF",
+            "moduleName": "ToBeTest",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "config",
+            "printedName": "config(token:position:trueLiFi:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocationCoordinate2D",
+                "printedName": "CoreLocation.CLLocationCoordinate2D",
+                "usr": "c:@S@CLLocationCoordinate2D"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8ToBeTest0aB0C6config5token8position8trueLiFiySS_So22CLLocationCoordinate2DVSbtF",
+            "mangledName": "$s8ToBeTest0aB0C6config5token8position8trueLiFiySS_So22CLLocationCoordinate2DVSbtF",
+            "moduleName": "ToBeTest",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -215,9 +721,639 @@
         "declAttributes": [
           "AccessControl"
         ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ErrorType",
+        "printedName": "ErrorType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "Error",
+            "printedName": "Error",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ToBeTest.ErrorType.Type) -> ToBeTest.ErrorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorType",
+                    "printedName": "ToBeTest.ErrorType",
+                    "usr": "s:8ToBeTest9ErrorTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ToBeTest.ErrorType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ErrorType",
+                        "printedName": "ToBeTest.ErrorType",
+                        "usr": "s:8ToBeTest9ErrorTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8ToBeTest9ErrorTypeO0D0yA2CmF",
+            "mangledName": "$s8ToBeTest9ErrorTypeO0D0yA2CmF",
+            "moduleName": "ToBeTest"
+          },
+          {
+            "kind": "Var",
+            "name": "Warning",
+            "printedName": "Warning",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ToBeTest.ErrorType.Type) -> ToBeTest.ErrorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorType",
+                    "printedName": "ToBeTest.ErrorType",
+                    "usr": "s:8ToBeTest9ErrorTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ToBeTest.ErrorType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ErrorType",
+                        "printedName": "ToBeTest.ErrorType",
+                        "usr": "s:8ToBeTest9ErrorTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8ToBeTest9ErrorTypeO7WarningyA2CmF",
+            "mangledName": "$s8ToBeTest9ErrorTypeO7WarningyA2CmF",
+            "moduleName": "ToBeTest"
+          },
+          {
+            "kind": "Var",
+            "name": "Log",
+            "printedName": "Log",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ToBeTest.ErrorType.Type) -> ToBeTest.ErrorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorType",
+                    "printedName": "ToBeTest.ErrorType",
+                    "usr": "s:8ToBeTest9ErrorTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ToBeTest.ErrorType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ErrorType",
+                        "printedName": "ToBeTest.ErrorType",
+                        "usr": "s:8ToBeTest9ErrorTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8ToBeTest9ErrorTypeO3LogyA2CmF",
+            "mangledName": "$s8ToBeTest9ErrorTypeO3LogyA2CmF",
+            "moduleName": "ToBeTest"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ToBeTest.ErrorType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorType",
+                    "printedName": "ToBeTest.ErrorType",
+                    "usr": "s:8ToBeTest9ErrorTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8ToBeTest9ErrorTypeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s8ToBeTest9ErrorTypeO8rawValueACSgSS_tcfc",
+            "moduleName": "ToBeTest",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8ToBeTest9ErrorTypeO8rawValueSSvp",
+            "mangledName": "$s8ToBeTest9ErrorTypeO8rawValueSSvp",
+            "moduleName": "ToBeTest",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8ToBeTest9ErrorTypeO8rawValueSSvg",
+                "mangledName": "$s8ToBeTest9ErrorTypeO8rawValueSSvg",
+                "moduleName": "ToBeTest",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:8ToBeTest9ErrorTypeO",
+        "mangledName": "$s8ToBeTest9ErrorTypeO",
+        "moduleName": "ToBeTest",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GeolocationError",
+        "printedName": "GeolocationError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ErrorType",
+                "printedName": "ToBeTest.ErrorType",
+                "usr": "s:8ToBeTest9ErrorTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8ToBeTest16GeolocationErrorV4typeAA0E4TypeOvp",
+            "mangledName": "$s8ToBeTest16GeolocationErrorV4typeAA0E4TypeOvp",
+            "moduleName": "ToBeTest",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorType",
+                    "printedName": "ToBeTest.ErrorType",
+                    "usr": "s:8ToBeTest9ErrorTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8ToBeTest16GeolocationErrorV4typeAA0E4TypeOvg",
+                "mangledName": "$s8ToBeTest16GeolocationErrorV4typeAA0E4TypeOvg",
+                "moduleName": "ToBeTest",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorType",
+                    "printedName": "ToBeTest.ErrorType",
+                    "usr": "s:8ToBeTest9ErrorTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8ToBeTest16GeolocationErrorV4typeAA0E4TypeOvs",
+                "mangledName": "$s8ToBeTest16GeolocationErrorV4typeAA0E4TypeOvs",
+                "moduleName": "ToBeTest",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8ToBeTest16GeolocationErrorV4typeAA0E4TypeOvM",
+                "mangledName": "$s8ToBeTest16GeolocationErrorV4typeAA0E4TypeOvM",
+                "moduleName": "ToBeTest",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8ToBeTest16GeolocationErrorV7messageSSvp",
+            "mangledName": "$s8ToBeTest16GeolocationErrorV7messageSSvp",
+            "moduleName": "ToBeTest",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8ToBeTest16GeolocationErrorV7messageSSvg",
+                "mangledName": "$s8ToBeTest16GeolocationErrorV7messageSSvg",
+                "moduleName": "ToBeTest",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8ToBeTest16GeolocationErrorV7messageSSvs",
+                "mangledName": "$s8ToBeTest16GeolocationErrorV7messageSSvs",
+                "moduleName": "ToBeTest",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8ToBeTest16GeolocationErrorV7messageSSvM",
+                "mangledName": "$s8ToBeTest16GeolocationErrorV7messageSSvM",
+                "moduleName": "ToBeTest",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dictionary",
+            "printedName": "dictionary",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8ToBeTest16GeolocationErrorV10dictionarySDySSypGSgvp",
+            "mangledName": "$s8ToBeTest16GeolocationErrorV10dictionarySDySSypGSgvp",
+            "moduleName": "ToBeTest",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8ToBeTest16GeolocationErrorV10dictionarySDySSypGSgvg",
+                "mangledName": "$s8ToBeTest16GeolocationErrorV10dictionarySDySSypGSgvg",
+                "moduleName": "ToBeTest",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GeolocationError",
+                "printedName": "ToBeTest.GeolocationError",
+                "usr": "s:8ToBeTest16GeolocationErrorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8ToBeTest16GeolocationErrorV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s8ToBeTest16GeolocationErrorV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "ToBeTest",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8ToBeTest16GeolocationErrorV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s8ToBeTest16GeolocationErrorV6encode2toys7Encoder_p_tKF",
+            "moduleName": "ToBeTest",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8ToBeTest16GeolocationErrorV",
+        "mangledName": "$s8ToBeTest16GeolocationErrorV",
+        "moduleName": "ToBeTest",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ToBeTest",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       }
     ],
     "json_format_version": 8
   },
-  "ConstValues": []
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/andrea\/Developer\/_ToBe\/Framework\/ToBeTest\/RestAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 331,
+      "length": 27,
+      "value": "\"https:\/\/api.lifizone.net\/\""
+    },
+    {
+      "filePath": "\/Users\/andrea\/Developer\/_ToBe\/Framework\/ToBeTest\/RestAPI.swift",
+      "kind": "Array",
+      "offset": 545,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/andrea\/Developer\/_ToBe\/Framework\/ToBeTest\/ToBe.swift",
+      "kind": "BooleanLiteral",
+      "offset": 236,
+      "length": 4,
+      "value": "true"
+    }
+  ]
 }
